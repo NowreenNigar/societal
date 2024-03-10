@@ -1,0 +1,89 @@
+.heading{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+.about-us {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin-right: 50px;
+  }
+  
+  .header {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .story {
+    margin: 0 15px;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: grid
+  }
+  
+  .story h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about-image {
+    width: 100%;
+    margin: 30px auto;
+  }
+  
+  /* Optional media query for smaller screens */
+  
+  @media (max-width: 768px) {
+    .about-us {
+      padding: 30px;
+    }
+  
+    .story,
+    .about-image {
+      width: 80%;
+    }
+  }
+  .ways-to-help ul {
+    white-space:nowrap; 
+    height: 1em;
+    width: 100%;
+  }
+  
+  .ways-to-help li {
+    
+    display:inline;
+    float:left;
+   margin-left:18px;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+  }
+  .create-quiz-wrapper {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .ways-to-help h2{
+    text-align: left;
+  }
+  .header{
+    font-size: 5em;
+    padding-top: 0%;
+    margin-top: 0;
+  }
